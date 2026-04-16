@@ -14,7 +14,7 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-declare -a devices=("anthias" "bass" "beluga" "catfish" "dory" "emulator" "firefish" "harmony" "hoki" "inharmony" "koi" "lenok" "minnow" "mooneye" "narwhal" "nemo" "pike" "ray" "rinato" "rubyfish" "sawfish" "skipjack" "smelt" "sparrow" "sparrow-mainline" "sprat" "sturgeon" "swift" "tetra" "triggerfish" "wren")
+declare -a devices=("anthias" "bass" "beluga" "catfish" "dory" "emulator" "firefish" "harmony" "hoki" "inharmony" "koi" "lenok" "lucky7" "minnow" "mooneye" "narwhal" "nemo" "pike" "ray" "rinato" "rubyfish" "sawfish" "skipjack" "smelt" "sparrow" "sparrow-mainline" "sprat" "sturgeon" "swift" "tetra" "triggerfish" "wren")
 
 declare -a layers=(
     "src/oe-core                   https://github.com/openembedded/openembedded-core.git walnascar"
@@ -22,9 +22,9 @@ declare -a layers=(
     "src/meta-openembedded         https://github.com/openembedded/meta-openembedded.git walnascar"
     "src/meta-qt5                  https://github.com/meta-qt5/meta-qt5                  walnascar"
     "src/meta-smartphone           https://github.com/shr-distribution/meta-smartphone   walnascar"
-    "src/meta-asteroid             https://github.com/AsteroidOS/meta-asteroid           2.0"
+    "src/meta-asteroid             https://github.com/Aiden-Isik/meta-asteroid           lucky7-mainline"
     "src/meta-asteroid-community   https://github.com/AsteroidOS/meta-asteroid-community 2.0"
-    "src/meta-smartwatch           https://github.com/AsteroidOS/meta-smartwatch.git     2.0"
+    "src/meta-smartwatch           https://github.com/Aiden-Isik/meta-smartwatch.git     lucky7-mainline"
 )
 
 declare -a layers_conf=(
